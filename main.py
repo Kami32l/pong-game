@@ -45,7 +45,7 @@ def main():
         rand_direct = random.choice(direction_key)
 
         while run:
-            time.sleep(0.015)
+            time.sleep(0.001)
 
             if start_move:
                 directions[rand_direct]()
